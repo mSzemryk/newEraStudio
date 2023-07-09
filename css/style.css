@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+nav .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-wrapper .brand-name {
+  font-size: 1.5rem;
+  color: #eed5d1;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 20px 20px;
+  text-transform: uppercase;
+}
+nav .nav-wrapper .bruger-icon {
+  color: #eed5d1;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+nav .nav-wrapper .bruger-icon i {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+header {
+  height: 100vh;
+  background-image: url("../img/header-hero.jpeg");
+  position: relative;
+  background-size: cover;
+  z-index: 0;
+}
+header .hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -5;
+}
+header .header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

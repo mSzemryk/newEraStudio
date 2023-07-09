@@ -1,0 +1,74 @@
+@use './colors' as c;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1400px;
+}
+// nawigacja
+nav {
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	.nav-wrapper {
+		display: flex;
+		justify-content: space-between;
+
+		.brand-name {
+			font-size: 1.5rem;
+			color: c.$light-white;
+			font-weight: 400;
+			letter-spacing: 2px;
+
+			padding: 20px 20px;
+
+			text-transform: uppercase;
+		}
+		.bruger-icon {
+			color: c.$light-white;
+			background: none;
+			border: none;
+			cursor: pointer;
+			i {
+				font-size: 1.5rem;
+				padding: 20px;
+			}
+		}
+	}
+}
+
+// header
+
+header {
+	height: 100vh;
+	background-image: url('../img/header-hero.jpeg');
+	position: relative;
+	background-size: cover;
+	z-index: 0;
+	.hero-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: c.$hero-shadow;
+		z-index: -5;
+	}
+	.header-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+}
