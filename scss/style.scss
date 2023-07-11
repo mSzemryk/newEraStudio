@@ -63,16 +63,18 @@ nav {
 			justify-content: center;
 			align-items: center;
 			overflow-y: auto;
-			
-			
+
 			ul {
 				position: relative;
 
 				li {
 					position: relative;
 					list-style: none;
-					text-align: left;
+
 					display: block;
+					padding: 15px 0;
+					text-align: center;
+
 					a {
 						color: c.$white;
 						position: relative;
@@ -82,15 +84,18 @@ nav {
 						padding: 0 10px;
 						text-transform: uppercase;
 						display: inline-block;
-						transition: color, 0.3s;
+						transition:0.3s;
 					}
 					a:hover {
 						color: c.$med-red;
+						padding: 50px 300px;
+						border-radius: 20px;
+						background-color: c.$nav-element-shadow;
+						width: 100%;
 					}
 				}
 			}
 		}
-		
 
 		.d-none {
 			display: none;
