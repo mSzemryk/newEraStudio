@@ -63,8 +63,27 @@ header .hero-shadow {
   z-index: -5;
 }
 header .header-wrapper {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  transform: translateY(25px);
+}
+header .header-wrapper h1, header .header-wrapper h5 {
+  padding: 10px 30px;
+  text-align: center;
+  text-shadow: 0 0 1px black;
+}
+header .header-wrapper h5 {
+  color: #d65170;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+header .header-wrapper h1 {
+  font-size: 2rem;
+  color: #eed5d1;
+}
+header .header-wrapper h1 span {
+  color: #d1114d;
 }/*# sourceMappingURL=style.css.map */
