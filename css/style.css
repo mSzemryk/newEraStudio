@@ -152,4 +152,32 @@ header .header-wrapper a {
 header .header-wrapper a:hover {
   background-color: rgba(243, 133, 146, 0.5411764706);
   color: #eed5d1;
+}
+
+.offer .offers-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+}
+.offer .offers-wrapper .single-offer-element {
+  border: 1px solid #eed5d1;
+  text-align: center;
+  margin: 20px 0;
+  padding: 30px 30px;
+}
+.offer .offers-wrapper .single-offer-element i {
+  font-size: 2.5rem;
+  color: #d1114d;
+  padding: 15px 0;
+}
+.offer .offers-wrapper .single-offer-element h3 {
+  font-size: 1.8rem;
+  padding: 10px;
+}
+.offer .offers-wrapper .single-offer-element p {
+  font-size: 1rem;
+  color: #808080;
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */

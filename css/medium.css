@@ -1,7 +1,8 @@
 header .header-wrapper {
   align-items: flex-start;
 }
-header .header-wrapper h1, header .header-wrapper h5 {
+header .header-wrapper h1,
+header .header-wrapper h5 {
   padding-left: 100px;
 }
 header .header-wrapper h1 {
@@ -12,4 +13,17 @@ header .header-wrapper a {
   bottom: 150px;
   align-self: center;
   padding: 30px 40px;
+}
+
+.offer .offers-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 30px;
+}
+.offer .offers-wrapper .single-offer-element {
+  width: 300px;
+  height: 350px;
 }/*# sourceMappingURL=medium.css.map */
