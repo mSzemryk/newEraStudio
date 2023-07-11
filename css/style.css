@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -39,11 +40,52 @@ nav .nav-wrapper .bruger-icon {
   color: #eed5d1;
   background: none;
   border: none;
+  z-index: 10;
   cursor: pointer;
 }
 nav .nav-wrapper .bruger-icon i {
   font-size: 1.5rem;
   padding: 20px;
+}
+nav .nav-wrapper .hamburger-menu {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+nav .nav-wrapper .hamburger-menu ul {
+  position: relative;
+}
+nav .nav-wrapper .hamburger-menu ul li {
+  position: relative;
+  list-style: none;
+  text-align: left;
+  display: block;
+}
+nav .nav-wrapper .hamburger-menu ul li a {
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3rem;
+  padding: 0 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color, 0.3s;
+}
+nav .nav-wrapper .hamburger-menu ul li a:hover {
+  color: #d65170;
+}
+nav .nav-wrapper .d-none {
+  display: none;
 }
 
 header {
@@ -64,27 +106,45 @@ header .hero-shadow {
 }
 header .header-wrapper {
   height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform: translateY(25px);
 }
 header .header-wrapper h1,
 header .header-wrapper h5 {
   padding: 10px 30px;
-  text-align: center;
+  text-align: left;
+  color: #fff;
 }
 header .header-wrapper h5 {
-  color: #d65170;
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 400;
 }
 header .header-wrapper h1 {
-  font-size: 2rem;
-  color: #eed5d1;
+  font-size: 2.2rem;
+  line-height: 45px;
 }
 header .header-wrapper h1 span {
   color: #d1114d;
+}
+header .header-wrapper a {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(209, 17, 78, 0.3882352941);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  border-radius: 10px;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+}
+header .header-wrapper a:hover {
+  background-color: rgba(243, 133, 146, 0.5411764706);
+  color: #eed5d1;
 }/*# sourceMappingURL=style.css.map */

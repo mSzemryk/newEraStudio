@@ -1,0 +1,9 @@
+header {
+  height: 50vh;
+}
+header .header-wrapper {
+  height: 50vh;
+}
+header .header-wrapper a {
+  display: none;
+}/*# sourceMappingURL=large.css.map */

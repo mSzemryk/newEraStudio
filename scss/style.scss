@@ -6,6 +6,7 @@
 }
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 body {
 	font-family: 'Lato', sans-serif;
@@ -15,7 +16,9 @@ body {
 	margin: 0 auto;
 	max-width: 1400px;
 }
+
 // nawigacja
+
 nav {
 	width: 100%;
 	position: fixed;
@@ -34,15 +37,63 @@ nav {
 
 			text-transform: uppercase;
 		}
+
 		.bruger-icon {
 			color: c.$light-white;
 			background: none;
 			border: none;
+			z-index: 10;
 			cursor: pointer;
 			i {
 				font-size: 1.5rem;
 				padding: 20px;
 			}
+		}
+
+		.hamburger-menu {
+			width: 100%;
+			height: 100%;
+			background-color: c.$nav-shadow;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			overflow-y: auto;
+			
+			
+			ul {
+				position: relative;
+
+				li {
+					position: relative;
+					list-style: none;
+					text-align: left;
+					display: block;
+					a {
+						color: c.$white;
+						position: relative;
+						text-decoration: none;
+						text-align: center;
+						font-size: 3rem;
+						padding: 0 10px;
+						text-transform: uppercase;
+						display: inline-block;
+						transition: color, 0.3s;
+					}
+					a:hover {
+						color: c.$med-red;
+					}
+				}
+			}
+		}
+		
+
+		.d-none {
+			display: none;
 		}
 	}
 }
@@ -67,30 +118,48 @@ header {
 
 	.header-wrapper {
 		height: 100vh;
-
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		transform: translateY(25px);
 		h1,
 		h5 {
 			padding: 10px 30px;
-			text-align: center;
+			text-align: left;
+			color: c.$white;
 		}
 		h5 {
-			color: c.$med-red;
 			text-transform: uppercase;
 			font-size: 1rem;
 			font-weight: 400;
 		}
 		h1 {
-			font-size: 2rem;
+			font-size: 2.2rem;
+			line-height: 45px;
 
-			color: c.$light-white;
 			span {
 				color: c.$dark-red;
 			}
+		}
+		a {
+			position: absolute;
+			bottom: 20px;
+			background-color: c.$dark-red-alpha;
+			text-decoration: none;
+			color: c.$white;
+			font-size: 1rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			// border: 2px solid c.$dark-red-alpha;
+			padding: 20px 20px;
+			border-radius: 10px;
+			transition: color 0.3s;
+			transition: background-color 0.3s;
+		}
+		a:hover {
+			background-color: c.$light-red-alpha;
+			color: c.$light-white;
 		}
 	}
 }

@@ -1,0 +1,15 @@
+header .header-wrapper {
+  align-items: flex-start;
+}
+header .header-wrapper h1, header .header-wrapper h5 {
+  padding-left: 100px;
+}
+header .header-wrapper h1 {
+  font-size: 4rem;
+  line-height: 70px;
+}
+header .header-wrapper a {
+  bottom: 150px;
+  align-self: center;
+  padding: 30px 40px;
+}/*# sourceMappingURL=medium.css.map */
