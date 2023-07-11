@@ -70,10 +70,10 @@ header .header-wrapper {
   justify-content: center;
   transform: translateY(25px);
 }
-header .header-wrapper h1, header .header-wrapper h5 {
+header .header-wrapper h1,
+header .header-wrapper h5 {
   padding: 10px 30px;
   text-align: center;
-  text-shadow: 0 0 1px black;
 }
 header .header-wrapper h5 {
   color: #d65170;
