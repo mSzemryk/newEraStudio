@@ -1,3 +1,4 @@
+@use './colors' as c;
 header {
 	background-position-y: -200px;
 	height: 50vh;
@@ -5,6 +6,19 @@ header {
 		height: 50vh;
 		a {
 			display: none;
+		}
+	}
+}
+
+.offer {
+	.offers-wrapper {
+		justify-content: space-between;
+		margin-top: -120px;
+		margin-bottom: 50px;
+		padding: 50px 30px;
+		.single-offer-element {
+			z-index: 5;
+			background-color: c.$white;
 		}
 	}
 }

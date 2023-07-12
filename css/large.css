@@ -9,6 +9,17 @@ header .header-wrapper a {
   display: none;
 }
 
+.offer .offers-wrapper {
+  justify-content: space-between;
+  margin-top: -120px;
+  margin-bottom: 50px;
+  padding: 50px 30px;
+}
+.offer .offers-wrapper .single-offer-element {
+  z-index: 5;
+  background-color: #fff;
+}
+
 .vision {
   background-position: left;
   align-items: center;

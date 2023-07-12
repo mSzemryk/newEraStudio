@@ -166,6 +166,7 @@ header .header-wrapper a:hover {
   text-align: center;
   margin: 20px 0;
   padding: 30px 30px;
+  width: 284px;
 }
 .offer .offers-wrapper .single-offer-element i {
   font-size: 2.5rem;

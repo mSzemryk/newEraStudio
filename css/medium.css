@@ -26,6 +26,7 @@ header .header-wrapper a {
 .offer .offers-wrapper .single-offer-element {
   width: 300px;
   height: 350px;
+  background-color: #fff;
 }
 
 .vision {
