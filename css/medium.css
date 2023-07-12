@@ -28,18 +28,20 @@ header .header-wrapper a {
   height: 350px;
 }
 
-.about-us {
-  background-image: url("../img/background-gf5e187add_1920.jpg");
-  padding: 30px 30px;
-  z-index: 0;
+.vision {
+  display: flex;
+  justify-content: space-around;
+  background-position: left;
+  background-image: url("../img/vision-hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.about-us .about-us-wrapper .about-us-elements {
-  padding: 150px 0;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.vision .vision-wrapper {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-.about-us .about-us-wrapper .about-us-elements .about-us-single-element {
-  width: 350px;
+.vision .vision-wrapper .single-vision-element {
+  width: 48%;
 }/*# sourceMappingURL=medium.css.map */

@@ -197,54 +197,56 @@ header {
 				font-size: 1rem;
 				color: c.$text-gray;
 				font-style: italic;
+				line-height: 25px;
 			}
 		}
 	}
 }
 
-// about us
-
-.about-us {
-	background-image: url('../img/background-gde2154495_640.jpg');
+// vision
+.vision {
+	background-position: 11.25% 50%;
+	background-image: url('../img/vision-hero.jpeg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-background-size: cover;
-	padding: 30px 30px;
-	z-index: 0;
+	background-size: cover;
+	
+	.vision-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: left;
+		padding: 60px 30px;
 
-	.about-us-shadow {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		z-index: -5;
-		background-color: c.$hero-shadow;
-	}
-	.about-us-wrapper {
-		
-		z-index: 1;
-		.about-us-elements {
-			display: flex;
-			flex-direction: column;
-			.about-us-single-element {
-				margin-bottom: 20px;
-				background-color: c.$white-alpha;
-				
-				padding: 30px;
-				h3 {
-					color: c.$dark-red;
-					padding: 5px 0;
-					font-size: 1rem;
-				}
-				h2 {
-					font-size: 1.5rem;
-				}
-				p {
-					padding: 25px 0;
-
-					font-size: 1rem;
-				}
+		.single-vision-element-big,
+		.single-vision-element {
+			background-color: c.$white-alpha;
+			padding: 30px 30px;
+			margin-bottom: 30px;
+		}
+		.single-vision-element-big {
+			h3 {
+				color: c.$dark-red;
+				padding-bottom: 10px;
+				font-size: 1rem;
+			}
+			h2 {
+				font-size: 1.4rem;
+				padding-bottom: 20px;
+			}
+			p {
+				font-size: 1rem;
+			}
+		}
+		.single-vision-element {
+			padding-top: 60px;
+			h2 {
+				font-size: 1.2rem;
+				padding-bottom: 20px;
+			}
+			p {
+				font-style: italic;
+				font-size: 1rem;
 			}
 		}
 	}

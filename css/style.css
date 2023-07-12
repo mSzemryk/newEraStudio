@@ -86,7 +86,7 @@ nav .nav-wrapper .hamburger-menu ul li a:hover {
   color: #d65170;
   padding: 50px 300px;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.178);
   width: 100%;
 }
 nav .nav-wrapper .d-none {
@@ -180,46 +180,49 @@ header .header-wrapper a:hover {
   font-size: 1rem;
   color: #808080;
   font-style: italic;
+  line-height: 25px;
 }
 
-.about-us {
-  background-image: url("../img/background-gde2154495_640.jpg");
+.vision {
+  background-position: 11.25% 50%;
+  background-image: url("../img/vision-hero.jpeg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  padding: 30px 30px;
-  z-index: 0;
 }
-.about-us .about-us-shadow {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -5;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-.about-us .about-us-wrapper {
-  z-index: 1;
-}
-.about-us .about-us-wrapper .about-us-elements {
+.vision .vision-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 60px 30px;
 }
-.about-us .about-us-wrapper .about-us-elements .about-us-single-element {
-  margin-bottom: 20px;
+.vision .vision-wrapper .single-vision-element-big,
+.vision .vision-wrapper .single-vision-element {
   background-color: rgba(255, 255, 255, 0.7411764706);
-  padding: 30px;
+  padding: 30px 30px;
+  margin-bottom: 30px;
 }
-.about-us .about-us-wrapper .about-us-elements .about-us-single-element h3 {
+.vision .vision-wrapper .single-vision-element-big h3 {
   color: #d1114d;
-  padding: 5px 0;
+  padding-bottom: 10px;
   font-size: 1rem;
 }
-.about-us .about-us-wrapper .about-us-elements .about-us-single-element h2 {
-  font-size: 1.5rem;
+.vision .vision-wrapper .single-vision-element-big h2 {
+  font-size: 1.4rem;
+  padding-bottom: 20px;
 }
-.about-us .about-us-wrapper .about-us-elements .about-us-single-element p {
-  padding: 25px 0;
+.vision .vision-wrapper .single-vision-element-big p {
+  font-size: 1rem;
+}
+.vision .vision-wrapper .single-vision-element {
+  padding-top: 60px;
+}
+.vision .vision-wrapper .single-vision-element h2 {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+.vision .vision-wrapper .single-vision-element p {
+  font-style: italic;
   font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

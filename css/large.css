@@ -1,4 +1,5 @@
 header {
+  background-position-y: -200px;
   height: 50vh;
 }
 header .header-wrapper {
@@ -6,4 +7,34 @@ header .header-wrapper {
 }
 header .header-wrapper a {
   display: none;
+}
+
+.vision {
+  background-position: left;
+  position: relative;
+}
+.vision .vision-wrapper {
+  position: relative;
+  left: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+.vision .vision-wrapper .single-vision-element p, .vision .vision-wrapper .single-vision-element-big p {
+  font-size: 1.1rem;
+}
+.vision .vision-wrapper .single-vision-element-big {
+  width: 100%;
+}
+.vision .vision-wrapper .single-vision-element-big h3 {
+  font-size: 1.1rem;
+}
+.vision .vision-wrapper .single-vision-element-big h2 {
+  font-size: 1.6rem;
+}
+.vision .vision-wrapper .single-vision-element h2 {
+  font-size: 1.4rem;
 }/*# sourceMappingURL=large.css.map */

@@ -35,25 +35,24 @@ header {
 	}
 }
 
-// about us
-.about-us {
-	background-image: url('../img/background-gf5e187add_1920.jpg');
-	// background-position: left;
+// vision
 
-	padding: 30px 30px;
-	z-index: 0;
-	
-		.about-us-wrapper {
-            .about-us-elements {
-                padding: 150px 0;
-                flex-wrap: wrap;
-                justify-content: space-evenly;
-			flex-direction: row;
-			flex-wrap: wrap;
-			.about-us-single-element {
-               width: 350px;
-                // margin: 20px;
-			}
+.vision {
+	display: flex;
+
+	justify-content: space-around;
+	background-position: left;
+	background-image: url('../img/vision-hero.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.vision-wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.single-vision-element {
+			width: 48%;
 		}
 	}
 }
