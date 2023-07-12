@@ -11,7 +11,9 @@ header .header-wrapper a {
 
 .vision {
   background-position: left;
+  align-items: center;
   position: relative;
+  height: 60vh;
 }
 .vision .vision-wrapper {
   position: relative;
@@ -23,7 +25,8 @@ header .header-wrapper a {
   align-self: flex-start;
   justify-content: space-between;
 }
-.vision .vision-wrapper .single-vision-element p, .vision .vision-wrapper .single-vision-element-big p {
+.vision .vision-wrapper .single-vision-element p,
+.vision .vision-wrapper .single-vision-element-big p {
   font-size: 1.1rem;
 }
 .vision .vision-wrapper .single-vision-element-big {
