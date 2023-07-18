@@ -50,4 +50,29 @@ header .header-wrapper a {
 .vision .vision-wrapper .single-vision-element h2 {
   font-size: 1.4rem;
   padding-top: 70px;
+}
+
+.goals .goals-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.goals .goals-wrapper .goals-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 50%;
+}
+.goals .goals-wrapper .goals-group .goals-img-one,
+.goals .goals-wrapper .goals-group .goals-img-two,
+.goals .goals-wrapper .goals-group .goals-text {
+  background-size: cover;
+  height: 100%;
+}
+.goals .goals-wrapper .goals-group .goals-img-two {
+  background-image: url("../img/goals2.jpeg");
+  background-position: 0 75%;
+}
+.goals .goals-wrapper .goals-group .goals-text {
+  padding: 40px 30px;
 }/*# sourceMappingURL=large.css.map */

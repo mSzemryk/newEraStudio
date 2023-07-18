@@ -46,4 +46,33 @@ header .header-wrapper a {
 .vision .vision-wrapper .single-vision-element {
   width: 48%;
   padding-top: 80px;
+}
+
+.goals .goals-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+.goals .goals-wrapper .goals-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.goals .goals-wrapper .goals-group .goals-img-one,
+.goals .goals-wrapper .goals-group .goals-img-two,
+.goals .goals-wrapper .goals-group .goals-text {
+  background-size: cover;
+  height: 100%;
+  width: 50vw;
+}
+.goals .goals-wrapper .goals-group .goals-img-two {
+  background-image: url("../img/goals2.jpeg");
+  background-position: center;
+}
+.goals .goals-wrapper .goals-group .goals-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=medium.css.map */

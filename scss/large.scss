@@ -26,7 +26,7 @@ header {
 .vision {
 	align-items: center;
 	position: relative;
-		.vision-wrapper {
+	.vision-wrapper {
 		position: relative;
 		left: 50%;
 		width: 50%;
@@ -54,7 +54,41 @@ header {
 		.single-vision-element {
 			h2 {
 				font-size: 1.4rem;
-                padding-top: 70px;
+				padding-top: 70px;
+			}
+		}
+	}
+}
+
+.goals {
+	.goals-wrapper {
+		
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		.goals-group {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			width: 50%;
+		
+			
+			.goals-img-one,
+			.goals-img-two,
+			.goals-text {
+				background-size: cover;
+				height: 100%;
+				
+			}
+			
+			.goals-img-two {
+				background-image: url('../img/goals2.jpeg');
+				background-position:0 75% ;
+			}
+			.goals-text{
+				padding: 40px 30px;
+				
+				
 			}
 		}
 	}

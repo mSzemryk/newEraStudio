@@ -225,4 +225,52 @@ header .header-wrapper a:hover {
 .vision .vision-wrapper .single-vision-element p {
   font-style: italic;
   font-size: 1rem;
+}
+
+.goals {
+  background-color: #1a1a1a;
+}
+.goals .goals-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.goals .goals-wrapper .goals-group {
+  display: flex;
+  flex-direction: column;
+}
+.goals .goals-wrapper .goals-group .goals-img-one,
+.goals .goals-wrapper .goals-group .goals-img-two {
+  background-size: cover;
+  height: 50vh;
+}
+.goals .goals-wrapper .goals-group .goals-img-one {
+  background-image: url("../img/goals.jpeg");
+}
+.goals .goals-wrapper .goals-group .goals-img-two {
+  background-image: url("../img/goals2.jpeg");
+}
+.goals .goals-wrapper .goals-group .goals-text {
+  padding: 30px 10px;
+}
+.goals .goals-wrapper .goals-group .goals-text h3 {
+  font-size: 1.3rem;
+  color: #d1114d;
+  padding-bottom: 20px;
+}
+.goals .goals-wrapper .goals-group .goals-text h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.goals .goals-wrapper .goals-group .goals-text p {
+  color: #808080;
+  font-size: 1.1rem;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+.goals .goals-wrapper .goals-group .goals-text a {
+  text-decoration: none;
+  color: #d1114d;
+  font-size: 1rem;
+  padding: 15px 0;
 }/*# sourceMappingURL=style.css.map */

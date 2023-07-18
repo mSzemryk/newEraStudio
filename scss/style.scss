@@ -92,7 +92,6 @@ nav {
 						border-radius: 20px;
 						width: 100%;
 					}
-				
 				}
 			}
 		}
@@ -247,6 +246,56 @@ header {
 			p {
 				font-style: italic;
 				font-size: 1rem;
+			}
+		}
+	}
+}
+// goals
+
+.goals {
+	background-color: c.$goals-background;
+	.goals-wrapper {
+		display: flex;
+		flex-direction: column;
+		.goals-group {
+			display: flex;
+			flex-direction: column;
+			.goals-img-one,
+			.goals-img-two
+			{
+				background-size: cover;
+				height: 50vh;
+			}
+			.goals-img-one {
+				background-image: url('../img/goals.jpeg');
+			}
+			.goals-img-two {
+				background-image: url('../img/goals2.jpeg');
+			}
+			.goals-text{
+				padding: 30px 10px;
+				h3{
+					font-size: 1.3rem;
+					color:c.$dark-red;
+					padding-bottom: 20px;
+				}
+				h2{
+					color:c.$white;
+					font-size: 1.5rem;
+					padding-bottom: 10px;
+				}
+				p{
+					color: c.$goals-p;
+					font-size: 1.1rem;
+					font-style: italic;
+					padding-bottom: 20px;
+				}
+				a{
+					text-decoration: none;
+					color:c.$dark-red;
+					font-size: 1rem;
+					padding:15px 0;
+				}
 			}
 		}
 	}
