@@ -1,9 +1,9 @@
 header {
   background-position-y: -200px;
-  height: 50vh;
+  height: 75vh;
 }
 header .header-wrapper {
-  height: 50vh;
+  height: 75vh;
 }
 header .header-wrapper a {
   display: none;
@@ -21,10 +21,8 @@ header .header-wrapper a {
 }
 
 .vision {
-  background-position: left;
   align-items: center;
   position: relative;
-  height: 80vh;
 }
 .vision .vision-wrapper {
   position: relative;

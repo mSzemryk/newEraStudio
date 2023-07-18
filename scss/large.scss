@@ -1,9 +1,9 @@
 @use './colors' as c;
 header {
 	background-position-y: -200px;
-	height: 50vh;
+	height: 75vh;
 	.header-wrapper {
-		height: 50vh;
+		height: 75vh;
 		a {
 			display: none;
 		}
@@ -24,11 +24,9 @@ header {
 }
 
 .vision {
-	background-position: left;
 	align-items: center;
 	position: relative;
-	height: 80vh;
-	.vision-wrapper {
+		.vision-wrapper {
 		position: relative;
 		left: 50%;
 		width: 50%;
