@@ -253,16 +253,15 @@ header {
 // goals
 
 .goals {
-	
 	.goals-wrapper {
 		display: flex;
 		flex-direction: column;
 		.goals-group {
-			display: flex;background-color: c.$goals-background;
+			display: flex;
+			background-color: c.$goals-background;
 			flex-direction: column;
 			.goals-img-one,
-			.goals-img-two
-			{
+			.goals-img-two {
 				background-size: cover;
 				height: 50vh;
 			}
@@ -272,30 +271,62 @@ header {
 			.goals-img-two {
 				background-image: url('../img/goals2.jpeg');
 			}
-			.goals-text{
+			.goals-text {
 				padding: 30px 10px;
-				h3{
+				h3 {
 					font-size: 1.3rem;
-					color:c.$dark-red;
+					color: c.$dark-red;
 					padding-bottom: 20px;
 				}
-				h2{
-					color:c.$white;
+				h2 {
+					color: c.$white;
 					font-size: 1.5rem;
 					padding-bottom: 10px;
 				}
-				p{
+				p {
 					color: c.$goals-p;
 					font-size: 1.1rem;
 					font-style: italic;
 					padding-bottom: 20px;
 				}
-				a{
+				a {
 					text-decoration: none;
-					color:c.$dark-red;
+					color: c.$dark-red;
 					font-size: 1rem;
-					padding:15px 0;
+					padding: 15px 0;
 				}
+			}
+		}
+	}
+}
+
+// gallery
+
+.gallery {
+	.gallery-wrapper {
+		display: flex;
+		flex-direction: column;
+		.gallery-title {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 30px 20px;
+			text-align: center;
+			h3 {
+				color: c.$dark-red;
+				font-size: 1.2rem;
+			}
+			h2 {
+				padding: 20px 0;
+				font-size: 1.6rem;
+			}
+		}
+		.gallery-img {
+			display: flex;
+			flex-direction: column;
+			img {
+				width: 100%;
+				padding: 20px 30px;
 			}
 		}
 	}

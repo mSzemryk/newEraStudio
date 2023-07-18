@@ -26,6 +26,7 @@ header {
 .vision {
 	align-items: center;
 	position: relative;
+
 	.vision-wrapper {
 		position: relative;
 		left: 50%;
@@ -61,8 +62,8 @@ header {
 }
 
 .goals {
+	height: 50vh;
 	.goals-wrapper {
-		height: 30vh;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -86,13 +87,36 @@ header {
 			}
 			.goals-text {
 				padding: 40px 30px;
-				a{
+				a {
 					font-size: 1.3rem;
-					transition: a, .3s;
+					transition: a, 0.3s;
 				}
-				a:hover{
-					color:c.$goals-a-hover;
+				a:hover {
+					color: c.$goals-a-hover;
 				}
+			}
+		}
+	}
+}
+
+
+.gallery {
+	.gallery-wrapper {
+		.gallery-title{
+			h3{
+				font-size: 1.3rem;
+			}
+		
+			h2{
+				font-size: 1.8rem;
+			}
+		}
+		.gallery-img {
+			flex-direction: row;
+			flex-wrap: wrap;
+			img {
+				width: 25%;
+				padding: 3px 3px;
 			}
 		}
 	}

@@ -271,4 +271,32 @@ header .header-wrapper a:hover {
   color: #d1114d;
   font-size: 1rem;
   padding: 15px 0;
+}
+
+.gallery .gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.gallery .gallery-wrapper .gallery-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  text-align: center;
+}
+.gallery .gallery-wrapper .gallery-title h3 {
+  color: #d1114d;
+  font-size: 1.2rem;
+}
+.gallery .gallery-wrapper .gallery-title h2 {
+  padding: 20px 0;
+  font-size: 1.6rem;
+}
+.gallery .gallery-wrapper .gallery-img {
+  display: flex;
+  flex-direction: column;
+}
+.gallery .gallery-wrapper .gallery-img img {
+  width: 100%;
+  padding: 20px 30px;
 }/*# sourceMappingURL=style.css.map */

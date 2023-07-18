@@ -52,8 +52,10 @@ header .header-wrapper a {
   padding-top: 70px;
 }
 
+.goals {
+  height: 50vh;
+}
 .goals .goals-wrapper {
-  height: 30vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -84,4 +86,19 @@ header .header-wrapper a {
 }
 .goals .goals-wrapper .goals-group .goals-text a:hover {
   color: #830d32;
+}
+
+.gallery .gallery-wrapper .gallery-title h3 {
+  font-size: 1.3rem;
+}
+.gallery .gallery-wrapper .gallery-title h2 {
+  font-size: 1.8rem;
+}
+.gallery .gallery-wrapper .gallery-img {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.gallery .gallery-wrapper .gallery-img img {
+  width: 25%;
+  padding: 3px 3px;
 }/*# sourceMappingURL=large.css.map */
