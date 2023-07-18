@@ -69,13 +69,13 @@ header {
 		flex-direction: row;
 		flex-wrap: wrap;
 		height: 50vh;
-		
+
 		.goals-group {
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
 			height: 100%;
-		
+
 			.goals-img-one,
 			.goals-img-two,
 			.goals-text {
@@ -88,7 +88,7 @@ header {
 				background-image: url('../img/goals2.jpeg');
 				background-position: center;
 			}
-			.goals-text{
+			.goals-text {
 				display: flex;
 				flex-direction: column;
 				justify-content: space-evenly;

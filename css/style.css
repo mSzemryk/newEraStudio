@@ -227,15 +227,13 @@ header .header-wrapper a:hover {
   font-size: 1rem;
 }
 
-.goals {
-  background-color: #1a1a1a;
-}
 .goals .goals-wrapper {
   display: flex;
   flex-direction: column;
 }
 .goals .goals-wrapper .goals-group {
   display: flex;
+  background-color: #1a1a1a;
   flex-direction: column;
 }
 .goals .goals-wrapper .goals-group .goals-img-one,

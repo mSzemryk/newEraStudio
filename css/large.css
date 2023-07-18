@@ -57,6 +57,7 @@ header .header-wrapper a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  min-height: 400px;
 }
 .goals .goals-wrapper .goals-group {
   display: flex;
@@ -76,4 +77,11 @@ header .header-wrapper a {
 }
 .goals .goals-wrapper .goals-group .goals-text {
   padding: 40px 30px;
+}
+.goals .goals-wrapper .goals-group .goals-text a {
+  font-size: 1.3rem;
+  transition: a, 0.3s;
+}
+.goals .goals-wrapper .goals-group .goals-text a:hover {
+  color: #830d32;
 }/*# sourceMappingURL=large.css.map */

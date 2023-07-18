@@ -66,29 +66,33 @@ header {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
+		min-height: 400px;
 		.goals-group {
 			display: flex;
 			flex-direction: row;
 			flex-wrap: nowrap;
 			width: 50%;
-		
-			
+
 			.goals-img-one,
 			.goals-img-two,
 			.goals-text {
 				background-size: cover;
 				height: 100%;
-				
 			}
-			
+
 			.goals-img-two {
 				background-image: url('../img/goals2.jpeg');
-				background-position:0 75% ;
+				background-position: 0 75%;
 			}
-			.goals-text{
+			.goals-text {
 				padding: 40px 30px;
-				
-				
+				a{
+					font-size: 1.3rem;
+					transition: a, .3s;
+				}
+				a:hover{
+					color:c.$goals-a-hover;
+				}
 			}
 		}
 	}

@@ -253,12 +253,12 @@ header {
 // goals
 
 .goals {
-	background-color: c.$goals-background;
+	
 	.goals-wrapper {
 		display: flex;
 		flex-direction: column;
 		.goals-group {
-			display: flex;
+			display: flex;background-color: c.$goals-background;
 			flex-direction: column;
 			.goals-img-one,
 			.goals-img-two
