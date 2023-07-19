@@ -253,6 +253,7 @@ header {
 // goals
 
 .goals {
+	width: 100vw;
 	.goals-wrapper {
 		display: flex;
 		flex-direction: column;
@@ -260,16 +261,11 @@ header {
 			display: flex;
 			background-color: c.$goals-background;
 			flex-direction: column;
-			.goals-img-one,
-			.goals-img-two {
-				background-size: cover;
-				height: 50vh;
-			}
-			.goals-img-one {
-				background-image: url('../img/goals.jpeg');
-			}
-			.goals-img-two {
-				background-image: url('../img/goals2.jpeg');
+			
+			img{
+				
+				padding: 30px 10px;
+				object-fit: contain;
 			}
 			.goals-text {
 				padding: 30px 10px;

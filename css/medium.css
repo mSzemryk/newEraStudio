@@ -48,9 +48,6 @@ header .header-wrapper a {
   padding-top: 80px;
 }
 
-.goals {
-  height: 100vh;
-}
 .goals .goals-wrapper {
   display: flex;
   flex-direction: row;
@@ -63,16 +60,11 @@ header .header-wrapper a {
   flex-wrap: wrap;
   height: 100%;
 }
-.goals .goals-wrapper .goals-group .goals-img-one,
-.goals .goals-wrapper .goals-group .goals-img-two,
-.goals .goals-wrapper .goals-group .goals-text {
-  background-size: cover;
-  height: 100%;
-  width: 50vw;
+.goals .goals-wrapper .goals-group img {
+  width: 50%;
 }
-.goals .goals-wrapper .goals-group .goals-img-two {
-  background-image: url("../img/goals2.jpeg");
-  background-position: center;
+.goals .goals-wrapper .goals-group .goals-text {
+  width: 50%;
 }
 .goals .goals-wrapper .goals-group .goals-text {
   display: flex;

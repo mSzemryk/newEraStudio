@@ -64,7 +64,6 @@ header {
 // goals
 
 .goals {
-	height: 100vh;
 	.goals-wrapper {
 		display: flex;
 		flex-direction: row;
@@ -77,18 +76,15 @@ header {
 			flex-wrap: wrap;
 			height: 100%;
 
-			.goals-img-one,
-			.goals-img-two,
+			img{
+			width: 50%;
+			}
 			.goals-text {
-				background-size: cover;
-				height: 100%;
-				width: 50vw;
+				width: 50%;
+				
 			}
 
-			.goals-img-two {
-				background-image: url('../img/goals2.jpeg');
-				background-position: center;
-			}
+			
 			.goals-text {
 				display: flex;
 				flex-direction: column;
