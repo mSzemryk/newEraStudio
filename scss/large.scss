@@ -100,7 +100,8 @@ header {
 }
 
 .gallery {
-	margin-top: 100px;
+	margin-top: 50px;
+	
 	.gallery-wrapper {
 		.gallery-title {
 			h3 {
@@ -115,6 +116,7 @@ header {
 			flex-direction: row;
 			flex-wrap: wrap;
 			img {
+				
 				width: 25%;
 				padding: 3px 3px;
 			}
