@@ -330,4 +330,25 @@ header .header-wrapper a:hover {
 .why-us .why-us-wrapper .why-us-img img {
   margin-top: 50px;
   width: 100%;
+}
+
+.designers {
+  height: 50vh;
+}
+.designers .designers-hero {
+  background-image: url("../img/adv-hero.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.designers .designers-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.designers .designers-wrapper .designers-title h2 {
+  font-size: 1.3rem;
+}
+.designers .designers-wrapper .designers-title h3 {
+  color: #d1114d;
 }/*# sourceMappingURL=style.css.map */

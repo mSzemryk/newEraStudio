@@ -359,10 +359,35 @@ header {
 				}
 			}
 		}
-		.why-us-img{
-			img{
+		.why-us-img {
+			img {
 				margin-top: 50px;
 				width: 100%;
+			}
+		}
+	}
+}
+
+// designers
+.designers {
+	height: 50vh;
+	.designers-hero {
+		background-image: url('../img/adv-hero.jpeg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.designers-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		.designers-title {
+			
+			h2 {
+				font-size: 1.3rem;
+			}
+			h3 {
+				color: c.$dark-red;
 			}
 		}
 	}
