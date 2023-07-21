@@ -76,15 +76,13 @@ header {
 			flex-wrap: wrap;
 			height: 100%;
 
-			img{
-			width: 50%;
+			img {
+				width: 50%;
 			}
 			.goals-text {
 				width: 50%;
-				
 			}
 
-			
 			.goals-text {
 				display: flex;
 				flex-direction: column;
@@ -104,6 +102,37 @@ header {
 				width: 50%;
 				padding: 20px 30px;
 			}
+		}
+	}
+}
+
+// why us
+
+.why-us {
+	padding: 30px 20px;
+	.why-us-wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		.why-us-text {
+			width: 50%;
+
+			h3 {
+				font-size: 1.5rem;
+			}
+			h2 {
+				font-size: 2rem;
+			}
+			ol {
+				font-size: 1.2rem;
+			}
+		}
+		.why-us-img {
+			width: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 	}
 }

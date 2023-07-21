@@ -1,111 +1,145 @@
 <!DOCTYPE html>
 <html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<script
+			src="https://kit.fontawesome.com/63d64969b8.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./img/icons8-sculpture-48.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (min-width:768px)"
+			href="./css/medium.css"
+		/>
+		<link
+			rel="stylesheet"
+			media="screen and (min-width:992px)"
+			href="./css/large.css"
+		/>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<script src="https://kit.fontawesome.com/63d64969b8.js" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet" />
-	<link rel="shortcut icon" href="./img/icons8-sculpture-48.png" type="image/x-icon" />
-	<link rel="stylesheet" href="./css/style.css" />
-	<link rel="stylesheet" media="screen and (min-width:768px)" href="./css/medium.css" />
-	<link rel="stylesheet" media="screen and (min-width:992px)" href="./css/large.css" />
+		<title>newEraStudio</title>
+	</head>
 
-	<title>newEraStudio</title>
-</head>
-
-<body>
-
-	<nav>
-		<div class="container">
-			<div class="nav-wrapper">
-				<span class="brand-name">studio</span>
-
-				<button class="bruger-icon" id="burger-icon" onclick="menuToggle()"><i
-						class="fa-solid fa-bars"></i></button>
-				<div class="hamburger-menu" id="hamburger-menu">
-					<ul>
-						<li class="nav-item"><a href="#">home</a></li>
-						<li class="nav-item"><a href="#offer">offer</a></li>
-						<li class="nav-item"><a href="#about-us">about us</a></li>
-						<li class="nav-item"><a href="#contact">contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<header class="header-hero">
-		<div class="hero-shadow"></div>
-		<div class="container">
-			<div class="header-wrapper">
-				<h5>we work hard, we play hard</h5>
-				<h1>We <span>Create</span><br> Elegant Solutions</h1>
-				<a href="#offer">welcome</a>
-			</div>
-		</div>
-	</header>
-	<main>
-		<section class="offer" id="offer">
+	<body>
+		<nav>
 			<div class="container">
-				<div class="offers-wrapper">
+				<div class="nav-wrapper">
+					<span class="brand-name">studio</span>
 
-					<div class="single-offer-element"><i class="fa-solid fa-paintbrush"></i>
-						<h3 class="offer-title">Pixel Perfect</h3>
-						<p class="offer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-							voluptatibus quibusdam dolores suscipit odit, doloremque corrupti. Corrupti dolores
-							explicabo pariatur!</p>
+					<button class="bruger-icon" id="burger-icon" onclick="menuToggle()">
+						<i class="fa-solid fa-bars"></i>
+					</button>
+					<div class="hamburger-menu" id="hamburger-menu">
+						<ul>
+							<li class="nav-item"><a href="#">home</a></li>
+							<li class="nav-item"><a href="#offer">offer</a></li>
+							<li class="nav-item"><a href="#about-us">about us</a></li>
+							<li class="nav-item"><a href="#contact">contact</a></li>
+						</ul>
 					</div>
-					<div class="single-offer-element"><i class="fa-solid fa-file"></i>
-						<h3 class="offer-title">Full Documentation</h3>
-						<p class="offer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-							voluptatibus quibusdam dolores suscipit odit, doloremque corrupti. Corrupti dolores
-							explicabo pariatur!</p>
-					</div>
-					<div class="single-offer-element"><i class="fa-solid fa-money-check-dollar"></i>
-						<h3 class="offer-title">Reasonable Pricing</h3>
-						<p class="offer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-							voluptatibus quibusdam dolores suscipit odit, doloremque corrupti. Corrupti dolores
-							explicabo pariatur!</p>
-					</div>
-					<div class="single-offer-element"><i class="fa-solid fa-user-plus"></i>
-						<h3 class="offer-title">Happy Clients</h3>
-						<p class="offer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-							voluptatibus quibusdam dolores suscipit odit, doloremque corrupti. Corrupti dolores
-							explicabo pariatur!</p>
-					</div>
-
 				</div>
-
-
-
 			</div>
-
-		</section>
-		<section class="vision">
+		</nav>
+		<header class="header-hero">
+			<div class="hero-shadow"></div>
 			<div class="container">
-				<div class="vision-wrapper">
-					<div class="single-vision-element-big">
-						<h3>Easy way to build perfect websites</h3>
-						<h2>Smart, Curious, Hands On.</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tenetur, enim consequatur
-							aliquam in minus officiis mollitia dolor ipsam perferendis!</p>
-					</div>
-
-					<div class="single-vision-element">
-						<h2>Creative Solutions</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quia!</p>
-					</div>
-					<div class="single-vision-element">
-						<h2>Clean code</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, praesentium!</p>
-					</div>
-
+				<div class="header-wrapper">
+					<h5>we work hard, we play hard</h5>
+					<h1>
+						We <span>Create</span><br />
+						Elegant Solutions
+					</h1>
+					<a href="#offer">welcome</a>
 				</div>
 			</div>
-		</section>
-		<section class="goals">
+		</header>
+		<main>
+			<section class="offer" id="offer">
+				<div class="container">
+					<div class="offers-wrapper">
+						<div class="single-offer-element">
+							<i class="fa-solid fa-paintbrush"></i>
+							<h3 class="offer-title">Pixel Perfect</h3>
+							<p class="offer-desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+								voluptatibus quibusdam dolores suscipit odit, doloremque
+								corrupti. Corrupti dolores explicabo pariatur!
+							</p>
+						</div>
+						<div class="single-offer-element">
+							<i class="fa-solid fa-file"></i>
+							<h3 class="offer-title">Full Documentation</h3>
+							<p class="offer-desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+								voluptatibus quibusdam dolores suscipit odit, doloremque
+								corrupti. Corrupti dolores explicabo pariatur!
+							</p>
+						</div>
+						<div class="single-offer-element">
+							<i class="fa-solid fa-money-check-dollar"></i>
+							<h3 class="offer-title">Reasonable Pricing</h3>
+							<p class="offer-desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+								voluptatibus quibusdam dolores suscipit odit, doloremque
+								corrupti. Corrupti dolores explicabo pariatur!
+							</p>
+						</div>
+						<div class="single-offer-element">
+							<i class="fa-solid fa-user-plus"></i>
+							<h3 class="offer-title">Happy Clients</h3>
+							<p class="offer-desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+								voluptatibus quibusdam dolores suscipit odit, doloremque
+								corrupti. Corrupti dolores explicabo pariatur!
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="vision">
+				<div class="container">
+					<div class="vision-wrapper">
+						<div class="single-vision-element-big">
+							<h3>Easy way to build perfect websites</h3>
+							<h2>Smart, Curious, Hands On.</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Molestias tenetur, enim consequatur aliquam in minus officiis
+								mollitia dolor ipsam perferendis!
+							</p>
+						</div>
+
+						<div class="single-vision-element">
+							<h2>Creative Solutions</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+								quia!
+							</p>
+						</div>
+						<div class="single-vision-element">
+							<h2>Clean code</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deserunt, praesentium!
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- <section class="goals">
 			<div class="goals-wrapper">
 				<div class="goals-group">
 					<img src="./img/goals.jpeg" alt="">
@@ -128,34 +162,76 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<section class="gallery">
-			<div class="container">
-				<div class="gallery-wrapper">
-					<div class="gallery-title">
-						<h3>Find more creative ideas for your projects</h3>
-						<h2>Beatuiful and easy to understand UI, professional animations and drag & drop</h2>
-					</div>
-					<div class="gallery-img">
-						<img src="./img/gallery images/0a45e2ac7da4d055b593212a1504c67d.jpeg" alt="">
-						<img src="./img/gallery images/2ed765c31dde5b370a7b118c60af0ebe.jpeg" alt="">
-						<img src="./img/gallery images/62b459d50d19ef79cf384bb9382eaac0.jpeg" alt="">
-						<img src="./img/gallery images/7e4509294d9c93994b4554a2eb024256.jpeg" alt="">
-						<img src="./img/gallery images/8b1f3212bc72535668c846f921cca0d4.jpeg" alt="">
-						<img src="./img/gallery images/a035e0bec8f11f492002184ca6e6ac82.jpeg" alt="">
-						<img src="./img/gallery images/c4bdad4b17efd19ce10ea44a0037b0f3.jpeg" alt="">
-						<img src="./img/gallery images/db242e891a1c4503418a1493f6195fa0.jpeg" alt="">
+		</section> -->
+			<section class="gallery">
+				<div class="container">
+					<div class="gallery-wrapper">
+						<div class="gallery-title">
+							<h3>Find more creative ideas for your projects</h3>
+							<h2>
+								Beatuiful and easy to understand UI, professional animations and
+								drag & drop
+							</h2>
+						</div>
+						<div class="gallery-img">
+							<img
+								src="./img/gallery images/0a45e2ac7da4d055b593212a1504c67d.jpeg"
+								alt=""
+							/>
+							<img
+								src="./img/gallery images/2ed765c31dde5b370a7b118c60af0ebe.jpeg"
+								alt=""
+							/>
+							<img
+								src="./img/gallery images/62b459d50d19ef79cf384bb9382eaac0.jpeg"
+								alt=""
+							/>
+							<img
+								src="./img/gallery images/7e4509294d9c93994b4554a2eb024256.jpeg"
+								alt=""
+							/>
+							<img
+								src="./img/gallery images/8b1f3212bc72535668c846f921cca0d4.jpeg"
+								alt=""
+							/>
+							<img
+								src="./img/gallery images/a035e0bec8f11f492002184ca6e6ac82.jpeg"
+								alt=""
+							/>
+							<img
+								src="./img/gallery images/c4bdad4b17efd19ce10ea44a0037b0f3.jpeg"
+								alt=""
+							/>
+							<img
+								src="./img/gallery images/db242e891a1c4503418a1493f6195fa0.jpeg"
+								alt=""
+							/>
+						</div>
 					</div>
 				</div>
+			</section>
 
-
-			</div>
-
-
-
-		</section>
-	</main>
-	<script src="./js/main.js"></script>
-</body>
-
+			<section class="why-us">
+				<div class="container">
+					<div class="why-us-wrapper">
+						<div class="why-us-text">
+							<h3>Values & Features</h3>
+							<h2>Why you choose us?</h2>
+							<ol>
+								<li>
+									Beautiful and easy to understand UI, professional animations
+								</li>
+								<li>Perfect design & clear code delivered</li>
+								<li>Present your services with flexibleu a massa</li>
+								<li>Find more creative ideas for your projects</li>
+								<li>Unlimited power and customization possibilites</li>
+							</ol>
+						</div>
+						<div class="why-us-img"><img src="./img/laptop.png" alt="" /></div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="./js/main.js"></script>
+	</body>
 </html>

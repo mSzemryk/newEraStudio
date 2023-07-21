@@ -296,4 +296,38 @@ header .header-wrapper a:hover {
 .gallery .gallery-wrapper .gallery-img img {
   width: 100%;
   padding: 20px 30px;
+}
+
+.why-us {
+  padding: 30px 20px;
+}
+.why-us .why-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-us .why-us-wrapper .why-us-text h2,
+.why-us .why-us-wrapper .why-us-text h3 {
+  text-align: center;
+}
+.why-us .why-us-wrapper .why-us-text h3 {
+  color: #d1114d;
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+.why-us .why-us-wrapper .why-us-text h2 {
+  font-size: 1.5rem;
+}
+.why-us .why-us-wrapper .why-us-text ol {
+  font-size: 1rem;
+  padding: 20px 20px;
+  color: #808080;
+  font-style: italic;
+}
+.why-us .why-us-wrapper .why-us-text ol li {
+  padding: 10px 0;
+}
+.why-us .why-us-wrapper .why-us-img img {
+  margin-top: 50px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

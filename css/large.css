@@ -104,4 +104,9 @@ header .header-wrapper a {
 .gallery .gallery-wrapper .gallery-img img {
   width: 25%;
   padding: 3px 3px;
+}
+
+.why-us .why-us-wrapper .why-us-text ol {
+  font-size: 1.2rem;
+  padding-left: 70px;
 }/*# sourceMappingURL=large.css.map */

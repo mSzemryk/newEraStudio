@@ -79,4 +79,31 @@ header .header-wrapper a {
 .gallery .gallery-wrapper .gallery-img img {
   width: 50%;
   padding: 20px 30px;
+}
+
+.why-us {
+  padding: 30px 20px;
+}
+.why-us .why-us-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.why-us .why-us-wrapper .why-us-text {
+  width: 50%;
+}
+.why-us .why-us-wrapper .why-us-text h3 {
+  font-size: 1.5rem;
+}
+.why-us .why-us-wrapper .why-us-text h2 {
+  font-size: 2rem;
+}
+.why-us .why-us-wrapper .why-us-text ol {
+  font-size: 1.2rem;
+}
+.why-us .why-us-wrapper .why-us-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=medium.css.map */

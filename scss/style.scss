@@ -261,9 +261,8 @@ header {
 			display: flex;
 			background-color: c.$goals-background;
 			flex-direction: column;
-			
-			img{
-				
+
+			img {
 				padding: 30px 10px;
 				object-fit: contain;
 			}
@@ -323,6 +322,47 @@ header {
 			img {
 				width: 100%;
 				padding: 20px 30px;
+			}
+		}
+	}
+}
+
+// why us
+
+.why-us {
+	padding: 30px 20px;
+	.why-us-wrapper {
+		display: flex;
+		flex-direction: column;
+
+		align-items: center;
+		.why-us-text {
+			h2,
+			h3 {
+				text-align: center;
+			}
+			h3 {
+				color: c.$dark-red;
+				font-size: 1.3rem;
+				padding-bottom: 10px;
+			}
+			h2 {
+				font-size: 1.5rem;
+			}
+			ol {
+				font-size: 1rem;
+				padding: 20px 20px;
+				color: c.$goals-p;
+				font-style: italic;
+				li {
+					padding: 10px 0;
+				}
+			}
+		}
+		.why-us-img{
+			img{
+				margin-top: 50px;
+				width: 100%;
 			}
 		}
 	}
