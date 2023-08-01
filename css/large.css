@@ -56,42 +56,6 @@ header .header-wrapper a {
   padding-top: 70px;
 }
 
-.goals {
-  height: 50vh;
-}
-.goals .goals-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  min-height: 400px;
-}
-.goals .goals-wrapper .goals-group {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 50%;
-}
-.goals .goals-wrapper .goals-group .goals-img-one,
-.goals .goals-wrapper .goals-group .goals-img-two,
-.goals .goals-wrapper .goals-group .goals-text {
-  background-size: cover;
-  height: 100%;
-}
-.goals .goals-wrapper .goals-group .goals-img-two {
-  background-image: url("../img/goals2.jpeg");
-  background-position: 0 75%;
-}
-.goals .goals-wrapper .goals-group .goals-text {
-  padding: 40px 30px;
-}
-.goals .goals-wrapper .goals-group .goals-text a {
-  font-size: 1.3rem;
-  transition: a, 0.3s;
-}
-.goals .goals-wrapper .goals-group .goals-text a:hover {
-  color: #830d32;
-}
-
 .gallery {
   margin-top: 50px;
 }
@@ -133,8 +97,39 @@ header .header-wrapper a {
 }
 .designers .designers-wrapper .designers-single-item {
   background: none;
-  padding: 60px 40px;
+  padding: 20px 40px;
 }
 .designers .designers-wrapper .designers-single-item p {
   font-size: 1.1rem;
+}
+
+.quality .quality-wrapper {
+  text-align: center;
+}
+.quality .quality-wrapper .quality-text {
+  margin: 10% 0;
+  justify-content: center;
+}
+.quality .quality-wrapper h3 {
+  color: #d1114d;
+  font-size: 1.6rem;
+  padding: 40px;
+}
+.quality .quality-wrapper h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 40px 50px;
+}
+
+.contact .contact-text h2 {
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+}
+.contact .contact-text p {
+  font-size: 1.5rem;
+}
+.contact .contact-map iframe {
+  padding: 0 30px;
+  width: 700px;
+  height: 700px;
 }/*# sourceMappingURL=large.css.map */

@@ -48,30 +48,6 @@ header .header-wrapper a {
   padding-top: 80px;
 }
 
-.goals .goals-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 50%;
-}
-.goals .goals-wrapper .goals-group {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 100%;
-}
-.goals .goals-wrapper .goals-group img {
-  width: 50%;
-}
-.goals .goals-wrapper .goals-group .goals-text {
-  width: 50%;
-}
-.goals .goals-wrapper .goals-group .goals-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
 .gallery .gallery-wrapper .gallery-img {
   flex-direction: row;
   flex-wrap: wrap;
@@ -137,4 +113,25 @@ header .header-wrapper a {
 .designers .designers-wrapper .designers-single-item h4 {
   font-size: 1.5rem;
   padding-bottom: 30px;
+}
+
+.contact .contact-wrapper {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contact .contact-text {
+  align-self: center;
+}
+.contact .contact-map iframe {
+  padding: 0 30px;
+  height: 500px;
+  width: 500px;
+}
+
+footer p {
+  font-size: 1.1rem;
+}
+footer a {
+  padding: 10px 5px;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=medium.css.map */

@@ -65,44 +65,6 @@ header {
 	}
 }
 
-.goals {
-	height: 50vh;
-	.goals-wrapper {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		min-height: 400px;
-		.goals-group {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: nowrap;
-			width: 50%;
-
-			.goals-img-one,
-			.goals-img-two,
-			.goals-text {
-				background-size: cover;
-				height: 100%;
-			}
-
-			.goals-img-two {
-				background-image: url('../img/goals2.jpeg');
-				background-position: 0 75%;
-			}
-			.goals-text {
-				padding: 40px 30px;
-				a {
-					font-size: 1.3rem;
-					transition: a, 0.3s;
-				}
-				a:hover {
-					color: c.$goals-a-hover;
-				}
-			}
-		}
-	}
-}
-
 .gallery {
 	margin-top: 50px;
 
@@ -146,17 +108,58 @@ header {
 .designers {
 	min-height: 0;
 
-	background-position:center;
+	background-position: center;
 
 	.designers-wrapper {
 		width: 50%;
 		justify-content: space-between;
 		.designers-single-item {
 			background: none;
-		padding:60px 40px;
+			padding: 20px 40px;
 			p {
 				font-size: 1.1rem;
 			}
+		}
+	}
+}
+
+.quality {
+	.quality-wrapper {
+		text-align: center;
+		.quality-text {
+			margin: 10% 0;
+
+			justify-content: center;
+		}
+		h3 {
+			color: c.$dark-red;
+			font-size: 1.6rem;
+			padding: 40px;
+		}
+		h2 {
+			color: c.$white;
+			font-size: 2.5rem;
+			padding: 40px 50px;
+		}
+	}
+}
+
+.contact {
+	.contact-text {
+		h2 {
+			font-size: 2.5rem;
+			padding-bottom: 30px;
+		}
+		p {
+			font-size: 1.5rem;
+		}
+	}
+
+	.contact-map {
+		iframe {
+			padding: 0 30px;
+			width: 700px;
+			height: 700px;
 		}
 	}
 }
