@@ -106,4 +106,35 @@ header .header-wrapper a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.designers {
+  min-height: 70vh;
+  background-position-x: -470px;
+}
+.designers .designers-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.designers .designers-wrapper .designers-title {
+  text-align: center;
+  width: 100%;
+}
+.designers .designers-wrapper .designers-title h2 {
+  font-size: 2rem;
+}
+.designers .designers-wrapper .designers-title h3 {
+  font-size: 1.5rem;
+}
+.designers .designers-wrapper .designers-single-item {
+  width: 45%;
+  padding: 60px 40px;
+  margin-bottom: 25px;
+  background-color: rgba(255, 255, 255, 0.7411764706);
+}
+.designers .designers-wrapper .designers-single-item h4 {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
 }/*# sourceMappingURL=medium.css.map */

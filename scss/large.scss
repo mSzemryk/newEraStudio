@@ -138,3 +138,27 @@ header {
 		}
 	}
 }
+
+
+.designers {
+	min-height: 50vh;
+
+	background-position-x:0;
+
+	.designers-wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+			width: 50%;
+
+	
+		.designers-single-item {
+			background: none;
+			p{
+				font-size: 1.1rem;
+				letter-spacing: 1px;
+			}
+			
+		}
+	}
+}

@@ -370,24 +370,39 @@ header {
 
 // designers
 .designers {
-	height: 50vh;
-	.designers-hero {
-		background-image: url('../img/adv-hero.jpeg');
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
+	min-height: 100vh;
+	background-image: url('../img/adv-hero.jpeg');
+	background-size: cover;
+
 	.designers-wrapper {
 		display: flex;
+		padding: 60px 30px;
 		flex-direction: column;
-		align-items: center;
+		
 		justify-content: space-evenly;
 		.designers-title {
 			
 			h2 {
-				font-size: 1.3rem;
+				font-size: 1.5rem;
+				padding-bottom: 60px;
 			}
 			h3 {
 				color: c.$dark-red;
+				font-size: 1.2rem;
+				padding-bottom: 40px;
+				
+			}
+		}
+		.designers-single-item {
+			h4 {
+				font-size: 1.3rem;
+				padding-bottom: 30px;
+			}
+			p{
+				font-size: 1rem;
+				padding-bottom: 30px;
+				font-style: italic;
+				color:c.$goals-p;				
 			}
 		}
 	}

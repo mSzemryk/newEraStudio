@@ -94,7 +94,7 @@ header {
 
 // gallery
 .gallery {
-		.gallery-wrapper {
+	.gallery-wrapper {
 		.gallery-img {
 			flex-direction: row;
 			flex-wrap: wrap;
@@ -133,6 +133,42 @@ header {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+		}
+	}
+}
+
+//designers
+.designers {
+	min-height: 70vh;
+
+	background-position-x: -470px;
+
+	.designers-wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+
+		.designers-title {
+			text-align: center;
+			width: 100%;
+			h2 {
+				font-size: 2rem;
+			}
+			h3 {
+				font-size: 1.5rem;
+			}
+		}
+		.designers-single-item {
+			width: 45%;
+			padding: 60px 40px;
+			margin-bottom: 25px;
+			background-color: c.$white-alpha;
+			h4 {
+				font-size: 1.5rem;
+				padding-bottom: 30px;
+			}
+			
 		}
 	}
 }
