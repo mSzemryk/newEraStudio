@@ -370,10 +370,11 @@ header {
 
 // designers
 .designers {
-	min-height: 100vh;
+	
 	background-image: url('../img/adv-hero.jpeg');
 	background-size: cover;
-
+	background-repeat: no-repeat;
+	
 	.designers-wrapper {
 		display: flex;
 		padding: 60px 30px;
@@ -381,7 +382,7 @@ header {
 		
 		justify-content: space-evenly;
 		.designers-title {
-			
+			text-align-last: left;
 			h2 {
 				font-size: 1.5rem;
 				padding-bottom: 60px;

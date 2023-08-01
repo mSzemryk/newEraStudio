@@ -119,7 +119,7 @@ header .header-wrapper a {
   justify-content: space-evenly;
 }
 .designers .designers-wrapper .designers-title {
-  text-align: center;
+  padding: 0 40px;
   width: 100%;
 }
 .designers .designers-wrapper .designers-title h2 {

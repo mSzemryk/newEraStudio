@@ -18,6 +18,10 @@ header .header-wrapper a {
 .offer .offers-wrapper .single-offer-element {
   z-index: 5;
   background-color: #fff;
+  transition: scale, 0.3s ease-out;
+}
+.offer .offers-wrapper .single-offer-element:hover {
+  scale: 1.1;
 }
 
 .vision {
@@ -109,7 +113,8 @@ header .header-wrapper a {
 .why-us .why-us-wrapper .why-us-text {
   padding-left: 20px;
 }
-.why-us .why-us-wrapper .why-us-text h2, .why-us .why-us-wrapper .why-us-text h3 {
+.why-us .why-us-wrapper .why-us-text h2,
+.why-us .why-us-wrapper .why-us-text h3 {
   -moz-text-align-last: left;
        text-align-last: left;
 }
@@ -119,19 +124,17 @@ header .header-wrapper a {
 }
 
 .designers {
-  min-height: 50vh;
-  background-position-x: 0;
+  min-height: 0;
+  background-position: center;
 }
 .designers .designers-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   width: 50%;
+  justify-content: space-between;
 }
 .designers .designers-wrapper .designers-single-item {
   background: none;
+  padding: 60px 40px;
 }
 .designers .designers-wrapper .designers-single-item p {
   font-size: 1.1rem;
-  letter-spacing: 1px;
 }/*# sourceMappingURL=large.css.map */
