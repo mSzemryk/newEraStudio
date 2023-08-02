@@ -121,6 +121,7 @@ header .header-wrapper h5 {
   padding: 10px 30px;
   text-align: left;
   color: #fff;
+  animation: showTitle 3s;
 }
 header .header-wrapper h5 {
   text-transform: uppercase;
@@ -166,6 +167,7 @@ header .header-wrapper a:hover {
   margin: 20px 0;
   padding: 30px 30px;
   width: 284px;
+  animation: slideUp 1s;
 }
 .offer .offers-wrapper .single-offer-element i {
   font-size: 2.5rem;
@@ -411,4 +413,23 @@ footer a {
   text-decoration: none;
   color: #f38592;
   font-size: 1rem;
+}
+
+@keyframes showTitle {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
