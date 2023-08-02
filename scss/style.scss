@@ -24,6 +24,7 @@ nav {
 	width: 100%;
 	position: fixed;
 	z-index: 10;
+
 	.nav-wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -100,6 +101,9 @@ nav {
 		.d-none {
 			display: none;
 		}
+	}
+	.red-nav{
+		color:c.$dark-red;
 	}
 }
 

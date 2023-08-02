@@ -91,6 +91,9 @@ nav .nav-wrapper .hamburger-menu ul li a:hover {
 nav .nav-wrapper .d-none {
   display: none;
 }
+nav .red-nav {
+  color: #d1114d;
+}
 
 header {
   height: 100vh;
